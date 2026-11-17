@@ -1,0 +1,43 @@
+[project]
+name = "vrbench"
+version = "0.1.0"
+description = "Vectorless (tree-navigation) RAG benchmarked against BM25, dense and hybrid retrieval on Regulation Z."
+readme = "README.md"
+license = "MIT"
+authors = [
+    { name = "Linus Dominic Nathaniel", email = "51094161+linusdominic@users.noreply.github.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "anthropic>=2.9.0",
+    "fastembed>=0.9.1",
+    "numpy>=2.5.5",
+    "python-dotenv>=1.2.4",
+]
+
+[project.scripts]
+vrbench = "vrbench.cli:main"
+
+[build-system]
+requires = ["uv_build>=0.13.6,<0.14.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.2.0",
+    "pytest-asyncio>=1.5.0",
+    "ruff>=0.17.5",
+]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+asyncio_default_fixture_loop_scope = "function"
+pythonpath = ["."]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM"]
