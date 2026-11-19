@@ -45,6 +45,11 @@ for closed-end.
 
 ## What is compared
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/img/architecture-dark.svg">
+  <img alt="How each question is run: Regulation Z from eCFR XML is parsed into 59 sections and 352 paragraphs. The chunked baselines (BM25, dense, hybrid) search 941 chunks and pass the top 5 chunks on; the vectorless navigator picks sections from the table of contents and then paragraphs from their outline, optionally using 363 index summaries written by Claude Haiku 5.5, and passes the top 3 paragraphs on. Claude Haiku 5.5 answers, Hit@k is scored on the gold paragraph and Claude Sonnet 5.5 grades the answer; records go to results/." src="docs/img/architecture-light.svg">
+</picture>
+
 All methods are scored on the same unit, the top-level paragraph (for example
 `1026.43(c)`), of which the regulation has 352 in 59 sections.
 
@@ -62,6 +67,11 @@ paragraphs, which is more text than five chunks. The control gives hybrid search
 advantage, to separate "better ranking" from "more context".
 
 ## Results
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/img/results-dark.svg">
+  <img alt="Hit@1 and answer accuracy over 60 questions, one run: BM25 70% and 85%, dense 72% and 88%, hybrid 75% and 92%, hybrid plus parents 75% and 87%, vectorless with headings only 82% and 92%, vectorless with summaries 95% and 98%. Only the Hit@1 gain of vectorless with summaries over hybrid is significant, p = 0.002; the answer-accuracy gain is not, p = 0.22." src="docs/img/results-light.svg">
+</picture>
 
 | Method | Hit@1 | Hit@3 | Hit@5 | MRR@5 | Answer accuracy (95% CI) | Retrieval latency p50 | Retrieval cost per query |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -105,6 +115,11 @@ right paragraph first more often than hybrid search does.
 
 Half the questions use the regulation's own terms ("direct"). Half describe a situation the
 way a borrower or loan officer would ("scenario").
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/img/by-style-dark.svg">
+  <img alt="Hit@3 by question style over 60 questions, direct then scenario: BM25 97% and 67%, dense 97% and 77%, hybrid 97% and 83%, hybrid plus parents 97% and 83%, vectorless with headings only 97% and 87%, vectorless with summaries 100% and 100%." src="docs/img/by-style-light.svg">
+</picture>
 
 | Method | direct: Hit@3 | direct: answer accuracy | scenario: Hit@3 | scenario: answer accuracy |
 | --- | --- | --- | --- | --- |

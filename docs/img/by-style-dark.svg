@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="431" viewBox="0 0 820 431" role="img" aria-label="Hit@3 by question style over 60 questions, direct then scenario: BM25 97% and 67%, dense 97% and 77%, hybrid 97% and 83%, hybrid plus parents 97% and 83%, vectorless with headings only 97% and 87%, vectorless with summaries 100% and 100%.">
+  <title>Hit@3 by question style over 60 questions, direct then scenario: BM25 97% and 67%, dense 97% and 77%, hybrid 97% and 83%, hybrid plus parents 97% and 83%, vectorless with headings only 97% and 87%, vectorless with summaries 100% and 100%.</title>
+  <rect x="0.5" y="0.5" width="819" height="430" rx="12" fill="#0d1117" stroke="#30363d"/>
+  <text x="28.0" y="40.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="17" font-weight="600" fill="#f0f6fc" text-anchor="start">Hit@3 by question style</text>
+  <text x="28.0" y="60.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#9198a1" text-anchor="start">Half the 60 questions use the regulation&#x27;s own terms (direct); half describe a situation in plain language (scenario).</text>
+  <rect x="28.0" y="76.0" width="12" height="12" rx="3" fill="#3987e5"/>
+  <text x="46.0" y="86.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#9198a1" text-anchor="start">Direct</text>
+  <rect x="112.0" y="76.0" width="12" height="12" rx="3" fill="#d95926"/>
+  <text x="130.0" y="86.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#9198a1" text-anchor="start">Scenario</text>
+  <text x="188.0" y="127.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#f0f6fc" text-anchor="end">BM25</text>
+  <path d="M202.0,108.0 H726.8 Q730.8,108.0 730.8,112.0 V118.0 Q730.8,122.0 726.8,122.0 H202.0 Z" fill="#3987e5"/>
+  <text x="738.8" y="119.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#9198a1" text-anchor="start">97%</text>
+  <path d="M202.0,124.0 H563.3 Q567.3,124.0 567.3,128.0 V134.0 Q567.3,138.0 563.3,138.0 H202.0 Z" fill="#d95926"/>
+  <text x="575.3" y="135.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#9198a1" text-anchor="start">67%</text>
+  <text x="188.0" y="175.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#f0f6fc" text-anchor="end">Dense</text>
+  <path d="M202.0,156.0 H726.8 Q730.8,156.0 730.8,160.0 V166.0 Q730.8,170.0 726.8,170.0 H202.0 Z" fill="#3987e5"/>
+  <text x="738.8" y="167.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#9198a1" text-anchor="start">97%</text>
+  <path d="M202.0,172.0 H617.8 Q621.8,172.0 621.8,176.0 V182.0 Q621.8,186.0 617.8,186.0 H202.0 Z" fill="#d95926"/>
+  <text x="629.8" y="183.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#9198a1" text-anchor="start">77%</text>
+  <text x="188.0" y="223.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#f0f6fc" text-anchor="end">Hybrid</text>
+  <path d="M202.0,204.0 H726.8 Q730.8,204.0 730.8,208.0 V214.0 Q730.8,218.0 726.8,218.0 H202.0 Z" fill="#3987e5"/>
+  <text x="738.8" y="215.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#9198a1" text-anchor="start">97%</text>
+  <path d="M202.0,220.0 H650.5 Q654.5,220.0 654.5,224.0 V230.0 Q654.5,234.0 650.5,234.0 H202.0 Z" fill="#d95926"/>
+  <text x="662.5" y="231.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#9198a1" text-anchor="start">83%</text>
+  <text x="188.0" y="271.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#f0f6fc" text-anchor="end">Hybrid + parents</text>
+  <path d="M202.0,252.0 H726.8 Q730.8,252.0 730.8,256.0 V262.0 Q730.8,266.0 726.8,266.0 H202.0 Z" fill="#3987e5"/>
+  <text x="738.8" y="263.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#9198a1" text-anchor="start">97%</text>
+  <path d="M202.0,268.0 H650.5 Q654.5,268.0 654.5,272.0 V278.0 Q654.5,282.0 650.5,282.0 H202.0 Z" fill="#d95926"/>
+  <text x="662.5" y="279.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#9198a1" text-anchor="start">83%</text>
+  <text x="188.0" y="319.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#f0f6fc" text-anchor="end">Vectorless, headings only</text>
+  <path d="M202.0,300.0 H726.8 Q730.8,300.0 730.8,304.0 V310.0 Q730.8,314.0 726.8,314.0 H202.0 Z" fill="#3987e5"/>
+  <text x="738.8" y="311.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#9198a1" text-anchor="start">97%</text>
+  <path d="M202.0,316.0 H672.3 Q676.3,316.0 676.3,320.0 V326.0 Q676.3,330.0 672.3,330.0 H202.0 Z" fill="#d95926"/>
+  <text x="684.3" y="327.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#9198a1" text-anchor="start">87%</text>
+  <text x="188.0" y="367.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#f0f6fc" text-anchor="end">Vectorless + summaries</text>
+  <path d="M202.0,348.0 H743.2 Q747.2,348.0 747.2,352.0 V358.0 Q747.2,362.0 743.2,362.0 H202.0 Z" fill="#3987e5"/>
+  <text x="755.2" y="359.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#9198a1" text-anchor="start">100%</text>
+  <path d="M202.0,364.0 H743.2 Q747.2,364.0 747.2,368.0 V374.0 Q747.2,378.0 743.2,378.0 H202.0 Z" fill="#d95926"/>
+  <text x="755.2" y="375.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#9198a1" text-anchor="start">100%</text>
+  <line x1="202.0" y1="102.0" x2="202.0" y2="384.0" stroke="#3d444d"/>
+  <text x="28.0" y="409.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#757e8a" text-anchor="start">Source: results/report.md, by question style, one run on 2026-11-17.</text>
+</svg>
